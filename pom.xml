@@ -15,74 +15,18 @@
 
 	<distributionManagement>
 		<repository>
-			<id>central</id>
-			<name>modusbox-releases</name>
+			<id>modusbox-release-local</id>
+			<name>libs-release-local</name>
 			<url>https://modusbox.jfrog.io/modusbox/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
-			<id>central-snapshot</id>
+			<id>modusbox-snapshot-local</id>
 			<name>libs-snapshot-local</name>
 			<url>https://modusbox.jfrog.io/modusbox/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
-	<repositories>
-
-		<repository>
-			<snapshots><enabled>false</enabled></snapshots>
-			<id>central</id>
-			<name>libs-release</name>
-			<url>https://modusbox.jfrog.io/modusbox/libs-release</url>
-		</repository>
-		<repository>
-			<snapshots />
-			<id>central-snapshots</id>
-			<name>libs-snapshot</name>
-			<url>https://modusbox.jfrog.io/modusbox/libs-snapshot</url>
-		</repository>
-		<repository>
-			<id>mulesoft-releases</id>
-			<name>MuleSoft Repository</name>
-			<url>http://repository.mulesoft.org/releases/</url>
-			<layout>default</layout>
-		</repository>
-		<repository>
-			<id>mulesoft-snapshots</id>
-			<name>MuleSoft Snapshot Repository</name>
-			<url>http://repository.mulesoft.org/snapshots/</url>
-			<layout>default</layout>
-		</repository>
-	</repositories>
 	<pluginRepositories>
-		<pluginRepository>
-			<snapshots><enabled>false</enabled></snapshots>
-			<id>central-plugin</id>
-			<name>plugins-release</name>
-			<url>https://modusbox.jfrog.io/modusbox/plugins-release</url>
-		</pluginRepository>
-		<pluginRepository>
-			<snapshots />
-			<id>central-plugin-snapshots</id>
-			<name>plugins-snapshot</name>
-			<url>https://modusbox.jfrog.io/modusbox/plugins-snapshot</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>mule-public</id>
-			<layout>default</layout>
-			<url>https://repository.mulesoft.org/nexus/content/repositories/releases</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-		<pluginRepository>
-			<id>mulesoft-release</id>
-			<name>mulesoft release repository</name>
-			<layout>default</layout>
-			<url>https://repository.mulesoft.org/nexus/content/groups/public</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
 	</pluginRepositories>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
