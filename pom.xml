@@ -37,7 +37,7 @@
 		<munit.version>1.2.0</munit.version>
 		<mule.munit.support.version>3.8.0</mule.munit.support.version>
 		<apikit.version>3.8.0</apikit.version>
-		<project.scm.id>git</project.scm.id>
+		<project.scm.id>Level1Git</project.scm.id>
 	</properties>
 
 	<build>
