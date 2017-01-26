@@ -33,10 +33,10 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<mule.version>3.8.1</mule.version>
+		<mule.munit.support.version>3.8.1</mule.munit.support.version>
+		<apikit.version>3.8.1</apikit.version>
 		<mule.tools.version>1.2</mule.tools.version>
 		<munit.version>1.3.1</munit.version>
-		<mule.munit.support.version>3.8.2</mule.munit.support.version>
-		<apikit.version>3.8.1</apikit.version>
 		<project.scm.id>Level1Git</project.scm.id>
 	</properties>
 
