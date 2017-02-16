@@ -39,8 +39,8 @@
 		<munit.version>1.3.1</munit.version>
 		<project.scm.id>Level1Git</project.scm.id>
 		
-		<interop-common.version>1.0.17</interop-common.version>
-		<interop-domain.version>1.0.8</interop-domain.version>
+		<interop-common.version>1.0.18</interop-common.version>
+		<interop-domain.version>1.0.14</interop-domain.version>
 	</properties>
 
 	<build>
