@@ -4,13 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.l1p.interop</groupId>
 	<artifactId>interop-parent</artifactId>
-	<version>1.0.13-SNAPSHOT</version>
+	<version>1.0.13</version>
 	<packaging>pom</packaging>
 	<name>Mule Parent Module</name>
 
 	<scm>
 		<connection>scm:git:https://github.com/LevelOneProject/interop-parent</connection>
-		<tag>HEAD</tag>
+		<tag>interop-parent-1.0.13</tag>
 	</scm>
 
 	<distributionManagement>
