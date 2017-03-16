@@ -14,33 +14,11 @@ Contents:
 
 Project is built using Maven and uses Circle for Continous Integration. 
 
-(How do you run this code?)
-
-(Example for NPM-published services--
-
-Installation:
-
-1. Install [Node.js and npm](https://nodejs.org/en/)
-
-2. Configure your npm instance to use the LevelOneProject repository.
-
-    See [Docs/Artifactory/NPM Repos](https://github.com/LevelOneProject/Docs/blob/master/Artifactory/npm_repos.md) for detailed instructions.
-
-3. Install the `(package name)` package.
-
-        npm install (package name)
-
-Running the server locally:
-
-    npm start
-
---end example)
+This is a single pom file that contains the dependencies used/needed by interop-domain, interop-common and other base level interop projects such as interop-spsp-clientproxy
 
 ## Configuration
 
-pom.xml and circle.yml can be found at interop-parent repo
-
-(Explanation of important config parameters)
+[pom.xml](./pom.xml) and [circle.yml](./circle.yml) can be found in the repo
 
 ## API
 
